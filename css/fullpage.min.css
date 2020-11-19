@@ -47,7 +47,7 @@ html.fp-enabled {
 .fp-slide.fp-table {
     display: table;
     table-layout: fixed;
-    width: 100%
+    width: 100vw;
 }
 
 .fp-tableCell {
