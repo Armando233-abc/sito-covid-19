@@ -595,7 +595,7 @@ a#logo {
   max-width: 100%;
   overflow: hidden;
   position: relative;
-  z-index: 9;
+  z-index: 9; 
   border-radius: 10px;
 }
 .portfolio-item .thumb-inner {
@@ -801,12 +801,13 @@ textarea.form-control {
 }
 .skill-item {
   border-bottom: 1px solid rgba(250,250,250,0.1);
-  margin-bottom: 50px;
-  padding-bottom: 50px;
+  margin-bottom: 40px;
+  /*padding-bottom: 50px;*/
 }
 .last-skill {
   border-bottom: none;
 }
+
 .skills-row span {
   display: inline-block;
   width: 50px;
@@ -818,7 +819,7 @@ textarea.form-control {
   border-radius: 50%;
   font-size: 16px;
   font-weight: 700;
-  left: 0;
+  left: -53px;
   top: -21px;
   position: absolute;
   z-index: 999;
@@ -838,18 +839,106 @@ textarea.form-control {
   background-color: rgba(250,250,250,0.25);
   position: relative;
 }
-.filled-bar {
+.filled-bar-india {
   position: absolute;
   z-index: 99;
-  width: 64%;
+  width: 1%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
 }
-.filled-bar-2 {
+.filled-bar-brasile {
   position: absolute;
   z-index: 99;
-  width: 82%;
+  width: 2.58%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-francia {
+  position: absolute;
+  z-index: 99;
+  width: 3%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-russia {
+  position: absolute;
+  z-index: 99;
+  width: 1.3%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-spagna {
+  position: absolute;
+  z-index: 99;
+  width: 3.2%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-uk {
+  position: absolute;
+  z-index: 99;
+  width: 2.1%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-argentina {
+  position: absolute;
+  z-index: 99;
+  width: 3%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-italia {
+  position: absolute;
+  z-index: 99;
+  width: 2%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-germania {
+  position: absolute;
+  z-index: 99;
+  width: 1%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-southafrica {
+  position: absolute;
+  z-index: 99;
+  width: 1.3%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-polonia {
+  position: absolute;
+  z-index: 99;
+  width: 2%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-belgio {
+  position: absolute;
+  z-index: 99;
+  width: 5%;
+  height: 6px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.filled-bar-portogallo {
+  position: absolute;
+  z-index: 99;
+  width: 2.3%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
