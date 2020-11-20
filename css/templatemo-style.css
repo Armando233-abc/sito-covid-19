@@ -611,33 +611,41 @@ a#logo {
   border-top-right-radius: 0px;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  border-radius: 10px;
 }
 .portfolio-item .thumb-inner h4 {
   margin-bottom: 0;
   font-size: 16px;
   margin-top: 0px;
+  color: #1e1e1e;
 }
 .portfolio-item .thumb-inner p {
   opacity: 0;
   visibility: hidden;
   position: absolute;
   margin-bottom: 0px;
+  font-size: larger;
+
 }
 .portfolio-item:hover .thumb-inner p {
   position: relative;
   opacity: 1;
   visibility: visible;
-  color: #4a4a4a;
+  color: #242424;
 }
 .portfolio-item:hover .thumb-inner {
   border-radius: 10px;
   height: 100%;
-  background-color: rgba(250,250,250,0.9)
+  background-color: rgba(250,250,250,0.95)
 }
 .portfolio-item:hover .thumb-inner h4 {
    margin-top: 30%;
   color: #1e1e1e;
   margin-bottom: 20px;
+}
+
+.portfolio-item:hover .thumb-inner #fonte_news{
+  display: block;
 }
 
 /*==============================================
@@ -948,3 +956,36 @@ textarea.form-control {
   text-align: right;
 }
 
+#fonte_news a {
+  color: #4096ee;
+  font-size: medium;
+}
+
+#fonte_news{
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  display: none;
+}
+
+#breaking  {
+  background-color:yellow;
+  color:black;
+}
+
+.portfolio-item .breaking{
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  text-align: left;
+  padding: 20px;
+  background-color: yellow;
+  color: black;
+  width: 100%;
+  height: 60px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
