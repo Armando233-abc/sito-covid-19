@@ -843,7 +843,7 @@ textarea.form-control {
 .filled-bar-usa {
   position: absolute;
   z-index: 99;
-  width: 35.6%;
+  width: 13.56%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -851,7 +851,7 @@ textarea.form-control {
 .filled-bar-india {
   position: absolute;
   z-index: 99;
-  width: 10%;
+  width: 10.66%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -859,7 +859,7 @@ textarea.form-control {
 .filled-bar-brasile {
   position: absolute;
   z-index: 99;
-  width: 25.8%;
+  width: 12.58%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -867,7 +867,7 @@ textarea.form-control {
 .filled-bar-francia {
   position: absolute;
   z-index: 99;
-  width: 30%;
+  width: 13%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -875,7 +875,7 @@ textarea.form-control {
 .filled-bar-russia {
   position: absolute;
   z-index: 99;
-  width: 13%;
+  width: 11.3%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -883,7 +883,7 @@ textarea.form-control {
 .filled-bar-spagna {
   position: absolute;
   z-index: 99;
-  width: 32%;
+  width: 13.2%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -891,15 +891,7 @@ textarea.form-control {
 .filled-bar-uk {
   position: absolute;
   z-index: 99;
-  width: 21%;
-  height: 6px;
-  background-color: #fff;
-  border-radius: 3px;
-}
-.filled-bar-argentina {
-  position: absolute;
-  z-index: 99;
-  width: 30%;
+  width: 12.1%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -907,7 +899,7 @@ textarea.form-control {
 .filled-bar-italia {
   position: absolute;
   z-index: 99;
-  width: 20%;
+  width: 12%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -915,7 +907,7 @@ textarea.form-control {
 .filled-bar-germania {
   position: absolute;
   z-index: 99;
-  width: 10%;
+  width: 11%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -923,7 +915,7 @@ textarea.form-control {
 .filled-bar-southafrica {
   position: absolute;
   z-index: 99;
-  width: 13%;
+  width: 11.3%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -931,7 +923,7 @@ textarea.form-control {
 .filled-bar-polonia {
   position: absolute;
   z-index: 99;
-  width: 20%;
+  width: 12%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -939,7 +931,7 @@ textarea.form-control {
 .filled-bar-belgio {
   position: absolute;
   z-index: 99;
-  width: 50%;
+  width: 15%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
@@ -947,9 +939,12 @@ textarea.form-control {
 .filled-bar-portogallo {
   position: absolute;
   z-index: 99;
-  width: 23%;
+  width: 12.3%;
   height: 6px;
   background-color: #fff;
   border-radius: 3px;
+}
+#fonte{
+  text-align: right;
 }
 
