@@ -616,7 +616,7 @@ a#logo {
 .portfolio-item .thumb-inner h4 {
   margin-bottom: 0;
   font-size: 16px;
-  margin-top: 0px;
+  margin-top: 0;
   color: #1e1e1e;
 }
 .portfolio-item .thumb-inner p {
@@ -639,7 +639,7 @@ a#logo {
   background-color: rgba(250,250,250,0.95)
 }
 .portfolio-item:hover .thumb-inner h4 {
-   margin-top: 30%;
+  margin-top: 10%;
   color: #1e1e1e;
   margin-bottom: 20px;
 }
@@ -988,4 +988,8 @@ textarea.form-control {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
   border-radius: 10px;
+}
+
+#data{
+  font-size: medium;
 }
