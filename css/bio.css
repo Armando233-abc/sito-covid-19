@@ -2,3 +2,15 @@
     position: absolute;
     right: 0;
 }
+
+.button > button{
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+}
+
+.button > img{
+    width: 30px;
+    height: 30px;
+}
