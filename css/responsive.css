@@ -56,9 +56,6 @@
 	.service-box {
 		padding:30px 20px;
 	}
-	.testimonial-content {
-		font-size:18px;
-	}
 	.owl-carousel .owl-item .client-img img {
 		max-width:80px;
 	}
@@ -106,7 +103,7 @@
 		margin-top: 35px;
 	}
 	.testimonial-content {
-		font-size: 16px;
+		font-size: 2px ;
 		padding:20px 25px;
 	}
 	.testimonials-section {

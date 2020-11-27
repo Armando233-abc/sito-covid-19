@@ -1001,3 +1001,8 @@ textarea.form-control {
 #IT{
   width: 20px;
 }
+
+#testo{
+  font-size: 30px;
+  font-weight: 500;
+}
