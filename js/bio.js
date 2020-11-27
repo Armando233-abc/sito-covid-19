@@ -1,13 +1,18 @@
-function avanti(){
-    let testo = document.querySelector("#testo")
+testo = document.querySelector("#testo")
+
+function avanti(){ // biografia Armando
+    let testo_Armando = "Ciao mi chiamo Armando Vigliotti, \
+                        ho 16 anni e\
+                        sono uno studente dell'istituto tecnico del villaggio dei ragazzi (CE)\
+                        "
     let img = document.querySelector("#img_bio")
-    testo.innerHTML = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit numquam dicta laborum, fugiat nihil quae repellendus animi architecto autem, quas nostrum natus distinctio. Distinctio voluptatum blanditiis, earum ut pariatur illum?"
-    img.src = "/images/armando.png"
+    testo.innerHTML = testo_Armando
+    img.src = "../images/armando.png"
 }
 
 function indietro(){
-    let testo = document.querySelector("#testo")
+    let testo_Crisci = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, officia, sint suscipit autem ea libero aut excepturi quo rem, vel explicabo facilis nisi quas eligendi assumenda veniam ipsa vero asperiores!"
     let img = document.querySelector("#img_bio")
-    testo.innerHTML = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, officia, sint suscipit autem ea libero aut excepturi quo rem, vel explicabo facilis nisi quas eligendi assumenda veniam ipsa vero asperiores!"
-    img.src = "/images/antonio.png"
+    testo.innerHTML = testo_Crisci
+    img.src = "../images/antonio.png"
 }
