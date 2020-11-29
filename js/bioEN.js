@@ -2,7 +2,7 @@ testo = document.querySelector("#testo")
 
 function avanti(){ // biografia Armando
     let testo_Armando = "Hi my name's is Armando Vigliotti, \
-                        I'm 16 years old\
+                        I'm 17 years old\
                         and I frequent the Informatics Techniques Institute of the Villaggio dei Ragazzi (CE)\
                         "
     let img = document.querySelector("#img_bio")
